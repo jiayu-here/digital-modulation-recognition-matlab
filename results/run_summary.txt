@@ -1,0 +1,46 @@
+Digital modulation recognition simulation summary
+Generated at: 2026-07-03 21:37:49
+
+Modulation types: ASK, FSK, BPSK, QPSK, 16QAM
+SNR range: [-10 -8 -6 -4 -2 0 2 4 6 8 10 12 14 16 18 20] dB
+Samples per symbol: 8
+Symbols per frame: 256
+Training frames per class per SNR: 60
+Test frames per class per SNR: 30
+
+Features:
+  01. realMean
+  02. imagMean
+  03. dcAbs
+  04. ampMean
+  05. ampVar
+  06. ampSkew
+  07. ampKurt
+  08. phaseStepMeanAbs
+  09. phaseStepVar
+  10. phaseStepKurt
+  11. freqChangeVar
+  12. freqChangeMeanAbs
+  13. c20Abs
+  14. c40Abs
+  15. c42Abs
+  16. c40Real
+  17. c40Imag
+
+Accuracy by SNR:
+  SNR= -10 dB, SVM= 51.33%, KNN= 42.67%
+  SNR=  -8 dB, SVM= 51.33%, KNN= 48.67%
+  SNR=  -6 dB, SVM= 70.00%, KNN= 60.00%
+  SNR=  -4 dB, SVM= 72.67%, KNN= 61.33%
+  SNR=  -2 dB, SVM= 72.00%, KNN= 61.33%
+  SNR=   0 dB, SVM= 86.00%, KNN= 80.00%
+  SNR=   2 dB, SVM= 92.00%, KNN= 89.33%
+  SNR=   4 dB, SVM= 98.67%, KNN= 97.33%
+  SNR=   6 dB, SVM=100.00%, KNN=100.00%
+  SNR=   8 dB, SVM=100.00%, KNN=100.00%
+  SNR=  10 dB, SVM=100.00%, KNN=100.00%
+  SNR=  12 dB, SVM=100.00%, KNN=100.00%
+  SNR=  14 dB, SVM=100.00%, KNN=100.00%
+  SNR=  16 dB, SVM=100.00%, KNN=100.00%
+  SNR=  18 dB, SVM=100.00%, KNN=100.00%
+  SNR=  20 dB, SVM=100.00%, KNN=100.00%
